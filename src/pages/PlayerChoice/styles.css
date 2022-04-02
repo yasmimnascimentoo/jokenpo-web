@@ -1,0 +1,102 @@
+.choice-player-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 700px;
+  height: 100vh;
+}
+
+header {
+  border: 3px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px 0;
+}
+
+.choice-player-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: uppercase;
+  color: white;
+}
+
+.img-logoZenvia {
+  max-width: 130px;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 30%;
+  margin: 0 auto;
+}
+
+.btnGeneral {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 25px;
+}
+.btnGeneral span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  border-radius: 50%;
+}
+
+.choice-player-result {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 10%;
+}
+
+.btnReset {
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.champion-player {
+  font-size: 30px;
+  color: white;
+}
+
+.footer {
+  width: 700px;
+  height: 30px;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.footer-description {
+  color: #fff;
+  font-weight: 700;
+}
